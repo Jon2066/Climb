@@ -200,7 +200,6 @@
 				AB1D24662447613F00E6F24B /* Frameworks */,
 				AB1D24672447613F00E6F24B /* Resources */,
 				AB1D24A52447626400E6F24B /* Embed App Extensions */,
-				BDE8C6E221E808B7C54BF533 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,7 +219,6 @@
 				AB785D502449821A00E2664E /* Sources */,
 				AB785D512449821A00E2664E /* Frameworks */,
 				AB785D522449821A00E2664E /* Resources */,
-				76A2EA4ADEC47BE895D4D848 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,40 +288,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		76A2EA4ADEC47BE895D4D848 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PacketTunnel/Pods-PacketTunnel-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BDE8C6E221E808B7C54BF533 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Climb/Pods-Climb-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Climb/Pods-Climb-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Climb/Pods-Climb-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D6D4B9D0F4AFE7CC5D4BE182 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

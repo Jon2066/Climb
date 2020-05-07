@@ -8,12 +8,13 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 
 target 'Climb' do
-    pod 'JNTool', :path=>'../JNTool/JNTool.podspec'
+#    pod 'JNTool', :path=>'../JNTool/JNTool.podspec'
+  pod 'JNClimbServer', :path=>'../JNClimbServer/JNClimbServer.podspec'
     pod 'Masonry'
 end
 
 target 'PacketTunnel' do
-    pod 'JNTool', :path=>'../JNTool/JNTool.podspec'
+#    pod 'JNTool', :path=>'../JNTool/JNTool.podspec'
     pod 'JNClimbServer', :path=>'../JNClimbServer/JNClimbServer.podspec'
 end
 

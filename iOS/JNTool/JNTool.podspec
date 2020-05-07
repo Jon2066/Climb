@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JNClimbServer'
+  s.name             = 'JNTool'
   s.version          = '0.1.0'
   s.summary          = 'A short description of JNTool.'
 
@@ -30,11 +30,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JNClimbServer/Classes/**/*'
+  s.source_files = 'JNTool/Classes/**/*'
   
+  s.resources = 'JNTool/Assets/*.{json}'
+  # s.resource_bundles = {
+  #   'JNTool' => ['JNTool/Assets/*.png']
+  # }
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+#  s.dependency 'ReactiveObjC', '3.1.1'
   s.dependency 'YYModel'
-  s.dependency 'CocoaAsyncSocket'
 
 end

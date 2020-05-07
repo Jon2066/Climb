@@ -3,11 +3,14 @@ PODS:
   - JNClimbServer (0.1.0):
     - CocoaAsyncSocket
     - YYModel
+  - JNTool (0.1.0):
+    - YYModel
   - Masonry (1.1.0)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - JNClimbServer (from `../JNClimbServer/JNClimbServer.podspec`)
+  - JNTool (from `../JNTool/JNTool.podspec`)
   - Masonry
 
 SPEC REPOS:
@@ -19,13 +22,16 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   JNClimbServer:
     :path: "../JNClimbServer/JNClimbServer.podspec"
+  JNTool:
+    :path: "../JNTool/JNTool.podspec"
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
-  JNClimbServer: 2536db9432cb0075faceb9e6ce214ea4f513bd3f
+  JNClimbServer: 98c128b17231e7f2653adc705d68ad17c2870ec1
+  JNTool: dbdec290d6195662ea654af6b02f3c1ac423ae48
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 8f801c356fb677faecb793f853f78c906d7380f9
+PODFILE CHECKSUM: 3ec2d6ac663dd2769be876347b87967079e31851
 
 COCOAPODS: 1.8.4

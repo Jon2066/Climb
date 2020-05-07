@@ -97,12 +97,12 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../JNTool/JNTool/Assets/gfwlist.json"
-  install_resource "${PODS_ROOT}/../../JNTool/JNTool/Assets/rsa_config.json"
+  install_resource "${PODS_ROOT}/../../JNClimbServer/JNClimbServer/Assets/gfwlist.json"
+  install_resource "${PODS_ROOT}/../../JNClimbServer/JNClimbServer/Assets/rsa_config.json"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../JNTool/JNTool/Assets/gfwlist.json"
-  install_resource "${PODS_ROOT}/../../JNTool/JNTool/Assets/rsa_config.json"
+  install_resource "${PODS_ROOT}/../../JNClimbServer/JNClimbServer/Assets/gfwlist.json"
+  install_resource "${PODS_ROOT}/../../JNClimbServer/JNClimbServer/Assets/rsa_config.json"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

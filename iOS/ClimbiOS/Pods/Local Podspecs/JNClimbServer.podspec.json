@@ -19,6 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "JNClimbServer/Classes/**/*",
+  "resources": "JNClimbServer/Assets/*.{json}",
   "dependencies": {
     "YYModel": [
 

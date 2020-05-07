@@ -1,0 +1,11 @@
+{
+  "client_pub":"-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCE9jdA5UZiHe+/aggRufHULQ2+7/7jVuHISX+phy2O2y+xUZLOfia85XgfnLcug98VniuUJyJpYIfpCtzm00OIs33Rjvyl9vsCsOhnI0hfbWi2Y28kAv+N1JUpcYbvzb3Acki6k1uNtpxKPQkaHRVGJovgKyE9dOQxwcuIpwifPQIDAQAB\n-----END PUBLIC KEY-----",
+  "server_private":"-----BEGIN RSA PRIVATE KEY-----\nMIICWwIBAAKBgQCZ/Q1D+yk+kUI6yZLYGWWzEXj6RMGx5gqYwQYxfgG9n2ONgCy7ItaRgcGWNc/U55gNCQqk2rYeItGKKCrm/7B5zfoLRCJEPrClUjSOHHE5Qdp2Sxp3TZoAKQm2KSNvoFa/ijeb+3NcPpoTiwhg8DUOJNd1jvlbmYb0HEU1WzLVGwIDAQABAoGAEHpgwgaNalGW+b16Rj+pf1j+TiGvbH8GYUQ+imtGemkk+Q5fOwNGXLm64n0NqWXDApoWFoAE/wKQ06zqsl9oHeX+0SWiLbote7eojjlzEd6iwceVr7mwj3N6UyXCDVZoh4cBoEBm6Cx/E3y2ABlwQZfIPh7VoA69AzlX+XG360ECQQDZYVzfcXyPBERoLEV3ra/zyEunen+YKJjjHTbPj6pGFF/dyIDdIdSHnPhBcWFKp9JKunu7q7raYdNLE8o9Kns7AkEAtViTXTtfBG1XMvTnlIujO7kn0N9TnHbNAeOkCHV4KsXctykVIX0O1idXhrczpfoMzCNncWjmazh5+4evK9qvoQJADQufxDUOUZLi/BF0FcuRnKKvj5x1Xc9J5Y9SQ8COamg8nJW0zhCCraTI7Tx9pzpND3kDhe63ZvWp9X55i5QqEwJAUhGa51eGIb/F9bal0zD6l32syjc3ZJjTIGbABl/7GQhgYbfC61voSfyV/M6OHjAyeHQRTV7W4HE3qyB1oxgd4QJARDAKY/DueQCB4jq/PLhkblvqnQJ2akhFUsPt8o+bPN4s5jqZUeGEZHx5/FgluZasQHIDlU0dKST7ZzBqkfXZtQ==\n-----END RSA PRIVATE KEY-----",
+  "server_port":"8899",
+  "users":[
+    {
+      "username":"jon",
+      "password":"jon111111"
+    }    
+  ]
+}

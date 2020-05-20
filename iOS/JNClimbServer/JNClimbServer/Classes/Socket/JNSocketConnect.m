@@ -113,7 +113,7 @@
     [sock readDataWithTimeout:-1 tag:2];
     __weak typeof(self) weakSelf = self;
     dispatch_async(self.connectQueue, ^{
-        if (self.derectConnectSocket) {
+        if (weakSelf.derectConnectSocket) {
             // 如果是CONNECT 反馈连接成功
             if ([weakSelf.httpMethod isEqualToString:@"CONNECT"]) {
                 weakSelf.requestData = nil;
@@ -125,7 +125,7 @@
                 weakSelf.requestData = nil;
             }
         }
-        else if(self.remoteSocket){
+        else if(weakSelf.remoteSocket){
             if (weakSelf.requestData) {
                 NSData *eData = [[JNEncryption shareInstance] encryptData:weakSelf.requestData  tunnelModel:weakSelf.tunnelModel];
                 [weakSelf.remoteSocket writeData:eData withTimeout:-1 tag:3];

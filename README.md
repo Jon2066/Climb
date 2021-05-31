@@ -1,7 +1,7 @@
 # Climb
 
-iOS+Go  一个粗糙的科学上网demo
+iOS+Go  一个科学上网demo,访问google没有问题
+全程使用了非对称加密安全性高但效率低 
 
-一般情况下能代理成功 访问google没有问题
-使用了非对称加密效率比较低 
+更好的方案:SSL 使用socket.io wss
 
